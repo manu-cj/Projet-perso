@@ -27,3 +27,8 @@ h1 {
 #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
     background: #ab4b4b left top no-repeat ;
 }
+
+#searchbar{position:relative; width:200px; height:auto; text-align: right}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:150px; height:15px;}
+
