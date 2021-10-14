@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: #417388;
+}
+
+h1 {
+    text-align: center;
+    font-family: Akronim;
+    background-color: #628898;
+    border-radius: 3em;
+}
+
+#navigation li a {
+    display: block ;
+    background: #628898 left no-repeat ;
+    font-family: Lobster;
+    line-height: 1em ;
+    padding: 3px 0 ;
+    width: 60px;
+    border-radius: 3em;
+    font-size: 20px;
+    color: black;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: #ab4b4b left top no-repeat ;
+}
