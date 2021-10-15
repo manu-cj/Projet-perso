@@ -3,9 +3,10 @@ body {
 }
 nav{
     text-align: center;
+
 }
 .menu{
-    display: inline-block;
+    display: flow;
 }
 .menu > li{
     float: left;
@@ -46,4 +47,8 @@ nav{
 }
 .menu > li:hover .sub-menu{
     transform: scale(1);
+}
+
+ul {
+    list-style-type: none;
 }
