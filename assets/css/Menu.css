@@ -10,9 +10,12 @@ body {
     background-color: #143742;
 }
 
+#ui {
+    background-color: #417388;
+}
+
 h1 {
     padding: 30px;
-    background-color: #417388;
     height: 100px;
     font-family: Lobster, fantasy;
 }
@@ -83,12 +86,13 @@ ul {
     background-image: url(../img/hamburger+list+menu+navigation+stack+icon-1320196714059164103.png);
     background-size: cover;
     background-position: center;
-
+    margin: 40px;
 }
 
 #searchbar {
     position:relative;
-    width:200px; height:auto;
+    width:200px;
+    height:auto;
     text-align: center;
 }
 .formulaire {
