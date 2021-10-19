@@ -19,7 +19,8 @@ h1 {
 
 #searchbar{position:relative; width:200px; height:auto; text-align: right}
 .formulaire               {display:inline-block;}
-.formulaire .champ       {width:150px; height:15px;}
-
+.formulaire .champ       {width:150px; height:25px;}
+.formulaire .bouton       {background-image: url(../img/images.png);background-repeat: no-repeat;background-size: cover;background-position: center;}
+.bouton { width: 25px}
 
 
