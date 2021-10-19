@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #143742;
 }
+
+h1 {
+    padding: 30px;
+    background-color: #417388;
+    height: 100px;
+    font-family: Lobster, fantasy;
+    color: rgba(0, 192, 192, 0.7);
+}
+
 nav {
+    padding: 30px;
     text-align: center;
     float: right;
 }
