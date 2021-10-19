@@ -98,15 +98,18 @@ ul {
     width:150px;
     height:25px;
 }
+
 .formulaire .bouton {
     background-image: url(../img/images.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .bouton {
     width: 25px
 }
+
 ul {
     text-align: center
 }
