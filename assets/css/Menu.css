@@ -3,27 +3,28 @@ body {
 }
 nav {
     text-align: center;
-
+    float: right;
 }
 .menu {
-    display: flow;
+    display: block;
 }
 .menu > li {
-    float: left;
     color: white;
-    width: 140px;
+    width: 40px;
     height: 40px;
     line-height: 40px;
     background-color: #1ABC9C;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .sub-menu {
+    float: right;
     transform: scale(0);
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     width: 140px;
+    height: 40px;
     border-radius: 15px;
 }
 
@@ -37,6 +38,7 @@ nav {
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     border-radius: 4px;
+
 }
 
 .sub-menu li:last-child {
@@ -55,7 +57,10 @@ nav {
 ul {
     list-style-type: none;
 }
+#profil {
+    background-image: url(../img/215-2150868_home-menu-icon-png-www-pixshark-com-images.png);
+    background-size: cover;
+    background-position: center;
 
-img {
-    width: 140px;
 }
+
