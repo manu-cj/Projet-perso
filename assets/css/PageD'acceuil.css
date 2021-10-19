@@ -7,4 +7,24 @@ h2 {
     color: rgba(0, 222, 139, 0.7);
 }
 
+.les-classe {
+    width: 400px;
+    height: 100px;
+    margin-left: 300px;
+    background-color: #417388;
+}
 
+#guerrier {
+    text-align: start;
+    color: #8c7053;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#paladin {
+    text-align: start;
+    color: rgba(225, 10, 194, 0.86);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
