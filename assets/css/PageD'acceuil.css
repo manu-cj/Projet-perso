@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body {
-    background-color: #417388;
-}
-
-h1 {
-    text-align: center;
-    font-family: Akronim;
-    background-color: #1ABC9C;
-    border-radius: 3em;
-}
-
-
-
-
-
-
-#searchbar{position:relative; width:200px; height:auto; text-align: right}
-.formulaire               {display:inline-block;}
-.formulaire .champ       {width:150px; height:25px;}
-.formulaire .bouton       {background-image: url(../img/images.png);background-repeat: no-repeat;background-size: cover;background-position: center;}
-.bouton { width: 25px}
 
 
