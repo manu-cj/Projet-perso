@@ -16,8 +16,9 @@ body {
 
 h1 {
     padding: 30px;
-    height: 100px;
+    height: 40px;
     font-family: Lobster, fantasy;
+    text-align: center;
 }
 
 a {
@@ -86,7 +87,7 @@ ul {
     background-image: url(../img/hamburger+list+menu+navigation+stack+icon-1320196714059164103.png);
     background-size: cover;
     background-position: center;
-    margin: 40px;
+
 }
 
 #searchbar {

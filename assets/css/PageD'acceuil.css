@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+h2 {
+    margin-top: 70px;
+    margin-left:300px;
+    color: rgba(0, 222, 139, 0.7);
+}
 
 
