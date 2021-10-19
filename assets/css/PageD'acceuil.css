@@ -11,19 +11,20 @@ h2 {
     width: 400px;
     height: 100px;
     margin-left: 400px;
-    background-color: #417388;
+    background-color: #2c4e60;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 #guerrier {
-    text-align: start;
+    text-align: center;
     color: #8c7053;
     font-weight: bold;
     font-size: 25px;
 }
 
 #paladin {
-    text-align: start;
+    text-align: center;
     color: rgba(225, 10, 194, 0.86);
     font-weight: bold;
     font-size: 25px;
@@ -31,7 +32,7 @@ h2 {
 }
 
 #pretre {
-    text-align: start;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 25px;
@@ -39,7 +40,7 @@ h2 {
 }
 
 #mage {
-    text-align: start;
+    text-align: center;
     color: rgb(14, 175, 252);
     font-weight: bold;
     font-size: 25px;
@@ -47,7 +48,7 @@ h2 {
 }
 
 #voleur {
-    text-align: start;
+    text-align: center;
     color: rgb(209, 245, 8);
     font-weight: bold;
     font-size: 25px;
