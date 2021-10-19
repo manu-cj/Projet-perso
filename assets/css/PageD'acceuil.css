@@ -10,8 +10,9 @@ h2 {
 .les-classe {
     width: 400px;
     height: 100px;
-    margin-left: 300px;
+    margin-left: 400px;
     background-color: #417388;
+    border-radius: 10px;
 }
 
 #guerrier {
@@ -24,6 +25,30 @@ h2 {
 #paladin {
     text-align: start;
     color: rgba(225, 10, 194, 0.86);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#pretre {
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#mage {
+    text-align: start;
+    color: rgb(14, 175, 252);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#voleur {
+    text-align: start;
+    color: rgb(209, 245, 8);
     font-weight: bold;
     font-size: 25px;
     margin-top: 30px;
