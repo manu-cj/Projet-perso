@@ -107,8 +107,8 @@ h2 {
 }
 
 #Druide:hover {
-    background:linear-gradient(to bottom, #4d058f 5%, #5e179d 100%);
-    background-color: #4d058f;
+    background:linear-gradient(to bottom, #da6d16 5%, #f69714 100%);
+    background-color: #e87a0b;
 }
 
 #Druide:active {
@@ -135,8 +135,8 @@ h2 {
 }
 
 #Dh:hover {
-    background:linear-gradient(to bottom, #4d058f 5%, #5e179d 100%);
-    background-color: #4d058f;
+    background:linear-gradient(to bottom, #6c23af 5%, #5e179d 100%);
+    background-color: #5d2296;
 }
 
 #Dh:active {
