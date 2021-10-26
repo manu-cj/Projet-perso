@@ -29,7 +29,7 @@ h2 {
 .les-classe {
     width: 800px;
     height: 875px;
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 100px;
     background: radial-gradient(#143742 0%, #163c48 100%);
     background-color: rgb(4, 148, 123);
@@ -89,8 +89,8 @@ h2 {
 }
 
 #paladin:hover {
-    background:linear-gradient(to bottom, rgba(223, 0, 255, 0.94) 5%, rgb(233, 43, 255) 100%);
-    background-color: rgb(233, 56, 255);
+    background:linear-gradient(to bottom, rgba(213, 55, 239, 0.94) 5%, rgb(228, 99, 248) 100%);
+    background-color: rgb(225, 87, 243);
 }
 
 #paladin:active {
@@ -384,9 +384,9 @@ h2 {
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #197e6a 5%, rgb(79, 157, 134) 100%);
-    background-color: #197e6a;
+    box-shadow: 0 10px 14px -7px #417388;
+    background:linear-gradient(to bottom, #23ad71 5%, rgb(65, 224, 121) 100%);
+    background-color: #197e48;
     border-radius:8px;
     border: solid 2px black;
     display: inline-block;
@@ -400,8 +400,8 @@ h2 {
 }
 
 #moine:hover {
-    background:linear-gradient(to bottom, rgba(0, 255, 255, 0.7) 5%, #197e6a 100%);
-    background-color: #197e6a;
+    background:linear-gradient(to bottom, rgba(0, 255, 111, 0.7) 5%, #197e3c 100%);
+    background-color: #197e41;
 }
 
 #moine:active {
