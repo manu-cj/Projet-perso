@@ -141,6 +141,7 @@ ul {
 
 }
 
+
 .foot {
     width: 100%;
     height: 120px;
@@ -150,4 +151,10 @@ ul {
     padding: 10px 10px 10px 10px;
     bottom: 0;
     left: 0;
+}
+
+.socialnetwork {
+    display: inline;
+    position: relative;
+    left: 23%;
 }
