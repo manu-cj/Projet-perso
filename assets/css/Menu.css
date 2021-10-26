@@ -12,7 +12,8 @@ body {
 }
 
 #ui {
-    background-color: #417388;
+    background:linear-gradient(to bottom, rgba(28, 157, 157, 0.7) 5%, rgb(24, 126, 106) 100%);
+    background-color: #197e6a;
 }
 
 h1 {
@@ -32,6 +33,7 @@ nav {
     text-align: center;
     float: right;
 }
+
 .menu {
     display: block;
 }
@@ -40,11 +42,14 @@ nav {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background-color: rgba(0, 222, 139, 0.7);
+    background:linear-gradient(to bottom, rgba(0, 192, 192, 0.7) 5%, rgb(25, 126, 106) 100%);
+    background-color: #197e6a;
     cursor: pointer;
     font-size: 20px;
     border-radius: 25px;
+
 }
+
 .sub-menu {
     float: right;
     transform: scale(0);
@@ -53,11 +58,13 @@ nav {
     width: 140px;
     height: 40px;
     border-radius: 15px;
+    margin-top: 50px;
 }
 
 .sub-menu li {
     font-size: 20px;
-    background-color: rgba(0, 222, 139, 0.7);
+    background:linear-gradient(to bottom, rgba(0, 192, 192, 0.7) 5%, rgb(25, 126, 106) 100%);
+    background-color: #197e6a;
     padding: 8px 0;
     color: white;
     border: 1px solid #fff;
@@ -72,7 +79,8 @@ nav {
     border-bottom: 0;
 }
 .sub-menu li:hover {
-    background: #ed2794;
+    background:linear-gradient(to bottom, rgba(230, 1, 255, 0.77) 5%, rgb(166, 17, 146) 100%);
+    background-color: #e601ff;
 }
 .menu > li:hover .sub-menu li {
     transform: scale(1);
@@ -83,6 +91,7 @@ nav {
 
 ul {
     list-style-type: none;
+
 }
 #profil {
     background-image: url(../img/hamburger+list+menu+navigation+stack+icon-1320196714059164103.png);
@@ -93,13 +102,16 @@ ul {
 
 #searchbar {
     position:relative;
+    bottom: 20px;
     width:200px;
     height:auto;
     text-align: center;
 }
+
 .formulaire {
     display:inline-block;
 }
+
 .formulaire .champ {
     width:150px;
     height:25px;

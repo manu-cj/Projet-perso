@@ -1,91 +1,295 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+
+
+body {
+    width: 100%;
+}
+
 h2 {
     margin-top: 70px;
-    margin-left:300px;
+    margin-left:200px;
     color: rgba(0, 222, 139, 0.7);
 }
 
 .les-classe {
-    width: 400px;
-    height: 100px;
-    margin-left: 400px;
-    background-color: #2c4e60;
-    border-radius: 10px;
+    width: 800px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
 #guerrier {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: #8c7053;
     font-weight: bold;
-    font-size: 25px;
+    margin-top: 30px;
+    box-shadow: 0 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, rgba(141, 90, 67, 0.67) 5%, rgb(166, 116, 79) 100%);
+    background-color: rgba(136, 89, 67, 0.83);
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#guerrier:hover {
+    background:linear-gradient(to bottom, rgb(154, 104, 80) 5%, rgba(131, 85, 68, 0.85) 100%);
+    background-color: rgba(124, 88, 62, 0.89);
+}
+
+#guerrier:active {
+    position:relative;
+    top:1px;
 }
 
 #paladin {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgba(255, 61, 224, 0.86);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, rgb(231, 51, 255) 5%, rgba(224, 16, 248, 0.96) 100%);
+    background-color: rgba(233, 51, 255, 0.98);
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#paladin:hover {
+    background:linear-gradient(to bottom, rgba(223, 0, 255, 0.94) 5%, rgb(233, 43, 255) 100%);
+    background-color: rgb(233, 56, 255);
+}
+
+#paladin:active {
+    position:relative;
+    top:1px;
 }
 
 #pretre {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.53) 5%, rgba(255, 255, 254, 0.54) 100%);
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#pretre:hover {
+    background:linear-gradient(to bottom, rgb(255, 255, 255) 5%, rgba(250, 250, 250, 0.58) 100%);
+    background-color: rgb(255, 255, 255);
+}
+
+#pretre:active {
+    position:relative;
+    top:1px;
 }
 
 #mage {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgb(14, 175, 252);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, rgba(0, 88, 115, 0.7) 5%, rgba(104, 253, 253, 0.7) 100%);
+    background-color: rgba(0, 255, 255, 0.7);
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#mage:hover {
+    background:linear-gradient(to bottom, rgba(96, 252, 252, 0.7) 5%, rgba(1, 103, 140, 0.7) 100%);
+    background-color: rgba(0, 255, 255, 0.7);
+}
+
+#mage:active {
+    position:relative;
+    top:1px;
 }
 
 #voleur {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgb(209, 245, 8);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #faf627 5%, #f3ea32 100%);
+    background-color: #d5b80e;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#voleur:hover {
+    background:linear-gradient(to bottom, #fff52e 5%, #b4a703 100%);
+    background-color: #d3da07;
+}
+
+#voleur:active {
+    position:relative;
+    top:1px;
 }
 
 #Demoniste {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgb(132, 0, 255);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #923eab 5%, #8f31a9 100%);
+    background-color: #6e0c9a;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#Demoniste:hover {
+    background:linear-gradient(to bottom, #aa21af 5%, #721079 100%);
+    background-color: #aa4dd2;
+}
+
+#Demoniste:active {
+    position:relative;
+    top:1px;
 }
 
 #chasseur {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgb(10, 166, 0);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #197c02 5%, #23a603 100%);
+    background-color: #26ad08;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#chasseur:hover {
+    background:linear-gradient(to bottom, #00bd02 5%, #048d07 100%);
+    background-color: #1c8c05;
+}
+
+#chasseur:active {
+    position:relative;
+    top:1px;
 }
 
 #dk {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgba(201, 5, 5, 0.82);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #a90a1a 5%, #dc081f 100%);
+    background-color: #b20e1d;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
+}
+
+#dk:hover {
+    background:linear-gradient(to bottom, #cb1528 5%, #a40f20 100%);
+    background-color: #b60013;
+}
+
+#dk:active {
+    position:relative;
+    top:1px;
 }
 
 #chaman {
+    width: 350px;
+    height: 100px;
     text-align: center;
-    color: rgba(10, 44, 157, 0.82);
     font-weight: bold;
-    font-size: 25px;
     margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #001b69 5%, #2a3a88 100%);
+    background-color: #05108f;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
 }
+
+#chaman:hover {
+    background:linear-gradient(to bottom, #163dda 5%, #00178c 100%);
+    background-color: #0811a4;
+}
+
+#chaman:active {
+    position:relative;
+    top:1px;
+}
+
 
 #Druide {
     width: 350px;
@@ -97,17 +301,18 @@ h2 {
     background:linear-gradient(to bottom, #f56401 5%, #cb7c20 100%);
     background-color: #f57201;
     border-radius:8px;
-    display:inline-block;
+    display: inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color: rgba(0, 0, 0, 0.8);
     font-size:30px;
-    padding:13px 32px;
+    padding:30px 32px;
     text-decoration:none;
     text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
 }
 
 #Druide:hover {
-    background:linear-gradient(to bottom, #da6d16 5%, #f69714 100%);
+    background:linear-gradient(to bottom, #ef9125 5%, #fc6100 100%);
     background-color: #e87a0b;
 }
 
@@ -118,6 +323,7 @@ h2 {
 
 #Dh {
     width: 350px;
+    height: 100px;
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
@@ -125,13 +331,14 @@ h2 {
     background:linear-gradient(to bottom, #4d058f 5%, #613091 100%);
     background-color: #4d058f;
     border-radius:8px;
-    display:inline-block;
+    display: inline-block;
     cursor:pointer;
-    color:#ffffff;
+    color: rgba(0, 0, 0, 0.8);
     font-size:30px;
-    padding:13px 32px;
+    padding:30px 32px;
     text-decoration:none;
     text-shadow:0px 1px 0px #3d768a;
+    margin-left: 30px;
 }
 
 #Dh:hover {
@@ -143,3 +350,34 @@ h2 {
     position:relative;
     top:1px;
 }
+
+#moine {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #197e6a 5%, rgba(0, 192, 192, 0.7) 100%);
+    background-color: #197e6a;
+    border-radius:8px;
+    display: inline-block;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.8);
+    font-size:30px;
+    padding:30px 32px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #3d768a;
+    margin-left: 30px;
+}
+
+#moine:hover {
+    background:linear-gradient(to bottom, rgba(0, 255, 255, 0.7) 5%, #197e6a 100%);
+    background-color: #197e6a;
+}
+
+#moine:active {
+    position:relative;
+    top:1px;
+}
+
