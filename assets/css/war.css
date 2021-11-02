@@ -1,0 +1,77 @@
+
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #417388;
+}
+
+section {
+    width: 80%;
+    height: auto;
+}
+
+.war {
+    width: 20%;
+    height: 350px;
+    border: solid 5px #544016;
+    border-radius: 15px;
+    background-image: url(../warrior.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.war:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgba(171, 119, 86, 0.67);
+    opacity: 100%;
+}
+
+.paladin {
+    float: right;
+    width: 20%;
+    height: 350px;
+    border: solid 5px #e601ff;
+    border-radius: 15px;
+    background-image: url(../img/227524.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.paladin:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(230, 1, 255);
+    opacity: 100%;
+}
+
+.pretre {
+    width: 20%;
+    height: 350px;
+    border: solid 5px #ffffff;
+    border-radius: 15px;
+    background-image: url(../img/b555c4380ed3d436d272df0e21a558a4.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.pretre:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.mage {
+    width: 20%;
+    height: 350px;
+    border: solid 5px rgba(0, 192, 192, 0.7);
+    border-radius: 15px;
+    background-image: url(../img/RhoninTCG.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.mage:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgba(0, 192, 192, 0.7);
+    opacity: 100%;
+}
