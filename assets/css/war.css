@@ -11,6 +11,12 @@ section {
     height: auto;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 320px;
+}
+
 .war {
     width: 30%;
     height: 350px;
