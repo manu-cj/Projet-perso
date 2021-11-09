@@ -13,7 +13,7 @@ body {
 
 section {
     width: 60%;
-    height: 750px;
+    height: 1500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@ h1 {
 }
 .war:hover {
     cursor: pointer;
-    box-shadow: 2px 16px 53px 0 rgb(171, 119, 86);
+    box-shadow: 2px 16px 53px 0 rgb(224, 115, 36);
     opacity: 100%;
 }
 
@@ -122,5 +122,107 @@ h1 {
 .chasseur:hover {
     cursor: pointer;
     box-shadow: 2px 16px 53px 0 rgb(94, 255, 0);
+    opacity: 100%;
+}
+
+.chevalier-de-la-mort {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(255, 0, 0);
+    border-radius: 15px;
+    background-image: url(../img/AlexCrowley.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.chevalier-de-la-mort:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 0, 0);
+    opacity: 100%;
+}
+
+.moine {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(0, 204, 116);
+    border-radius: 15px;
+    background-image: url(../img/1399100-monk-article_image_bd-1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.moine:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(0, 178, 104);
+    opacity: 100%;
+}
+
+.demoniste {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(129, 12, 255);
+    border-radius: 15px;
+    background-image: url(../img/1b29e49935a71f612be275f30ea309d4.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.demoniste:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(129, 8, 255);
+    opacity: 100%;
+}
+
+.dh {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(170, 105, 245);
+    border-radius: 15px;
+    background-image: url(../img/022cd439-7b5d-4399-9dad-72b76a1dd0da_rw_1200.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.dh:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(179, 105, 255);
+    opacity: 100%;
+}
+
+.chaman {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(6, 85, 255);
+    border-radius: 15px;
+    background-image: url(../img/1c1225ed1d80edb25b5644a1558b016e.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.chaman:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(0, 103, 255);
+    opacity: 100%;
+}
+
+.druide {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(255, 138, 0);
+    border-radius: 15px;
+    background-image: url(../img/bcfc3178cf3dfbd3439984085eae777b.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.druide:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 135, 0);
     opacity: 100%;
 }
