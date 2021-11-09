@@ -7,8 +7,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    justify-content:space-around;
+    align-content: space-around;
+    align-items: center;
 }
 
 section {

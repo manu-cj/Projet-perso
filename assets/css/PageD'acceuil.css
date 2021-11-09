@@ -6,406 +6,252 @@
 
 body {
     width: 100%;
+    background-color: #417388;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
 }
 
 .banierre {
-    width: 60%;
-    height: 50px;
-    background-size: cover;
-    margin-left: 75px;
-    margin-top: 150px;
-    border-radius: 10px;
+    width: 100%;
+    height: 200px;
 }
 
 
 
 h2 {
 
-    margin-left: 20%;
     color: rgba(0, 222, 139, 0.7);
 
 }
 
-.les-classe {
-    width: 800px;
-    height: 875px;
-    margin-left: 25%;
-    margin-top: 100px;
-    background: radial-gradient(#143742 0%, #163c48 100%);
-    background-color: rgb(4, 148, 123);
-    border-radius: 5px;
+
+section {
+    width: 70%;
+    height: 1600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
-#guerrier {
-    width: 350px;
-    height: 100px;
+h1 {
+    background-color: #101010;
+    color: #ffffff;
     text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, rgba(141, 90, 67, 0.67) 5%, rgb(166, 116, 79) 100%);
-    background-color: rgba(136, 89, 67, 0.83);
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+    margin-top: 310px;
+    font-family: Lobster, fantasy;
+    border-radius: 15px;
+    opacity: 80%;
 }
 
-#guerrier:hover {
-    background:linear-gradient(to bottom, rgb(154, 104, 80) 5%, rgba(131, 85, 68, 0.85) 100%);
-    background-color: rgba(124, 88, 62, 0.89);
+.war {
+    width: 30%;
+    height: 350px;
+    border: solid 5px #8d6c27;
+    border-radius: 15px;
+    background-image: url(../warrior.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.war:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(224, 115, 36);
+    opacity: 100%;
 }
 
-#guerrier:active {
-    position:relative;
-    top:1px;
+.paladin {
+    width: 30%;
+    height: 350px;
+    border: solid 5px #e601ff;
+    border-radius: 15px;
+    background-image: url(../img/227524.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.paladin:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(230, 1, 255);
+    opacity: 100%;
 }
 
-#paladin {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, rgb(231, 51, 255) 5%, rgba(224, 16, 248, 0.96) 100%);
-    background-color: rgba(233, 51, 255, 0.98);
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.pretre {
+    width: 30%;
+    height: 350px;
+    border: solid 5px #ffffff;
+    border-radius: 15px;
+    background-image: url(../img/b555c4380ed3d436d272df0e21a558a4.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.pretre:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 255, 255);
+    opacity: 100%;
 }
 
-#paladin:hover {
-    background:linear-gradient(to bottom, rgba(213, 55, 239, 0.94) 5%, rgb(228, 99, 248) 100%);
-    background-color: rgb(225, 87, 243);
+.mage {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(6, 255, 255);
+    border-radius: 15px;
+    background-image: url(../img/RhoninTCG.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+.mage:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(0, 192, 192);
+    opacity: 100%;
 }
 
-#paladin:active {
-    position:relative;
-    top:1px;
+.voleur {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(238, 255, 0);
+    border-radius: 15px;
+    background-image: url(../img/4a4d0880e0225bb65560d2c178410974.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#pretre {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.53) 5%, rgba(255, 255, 254, 0.54) 100%);
-    background-color: rgba(255, 255, 255, 0.72);
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.voleur:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(238, 255, 0);
+    opacity: 100%;
 }
 
-#pretre:hover {
-    background:linear-gradient(to bottom, rgb(255, 255, 255) 5%, rgba(250, 250, 250, 0.58) 100%);
-    background-color: rgb(255, 255, 255);
+.chasseur {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(94, 255, 0);
+    border-radius: 15px;
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#pretre:active {
-    position:relative;
-    top:1px;
+.chasseur:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(94, 255, 0);
+    opacity: 100%;
 }
 
-#mage {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, rgba(0, 88, 115, 0.7) 5%, rgba(104, 253, 253, 0.7) 100%);
-    background-color: rgba(0, 255, 255, 0.7);
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.chevalier-de-la-mort {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(255, 0, 0);
+    border-radius: 15px;
+    background-image: url(../img/AlexCrowley.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#mage:hover {
-    background:linear-gradient(to bottom, rgba(96, 252, 252, 0.7) 5%, rgba(1, 103, 140, 0.7) 100%);
-    background-color: rgba(0, 255, 255, 0.7);
+.chevalier-de-la-mort:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 0, 0);
+    opacity: 100%;
 }
 
-#mage:active {
-    position:relative;
-    top:1px;
+.moine {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(0, 204, 116);
+    border-radius: 15px;
+    background-image: url(../img/1399100-monk-article_image_bd-1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#voleur {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, rgba(255, 249, 31, 0.78) 5%, rgba(187, 181, 11, 0.8) 100%);
-    background-color: rgba(192, 165, 11, 0.8);
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.moine:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(0, 178, 104);
+    opacity: 100%;
 }
 
-#voleur:hover {
-    background:linear-gradient(to bottom, #fff52e 5%, #fae71b 100%);
-    background-color: #f3fd07;
+.demoniste {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(129, 12, 255);
+    border-radius: 15px;
+    background-image: url(../img/1b29e49935a71f612be275f30ea309d4.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#voleur:active {
-    position:relative;
-    top:1px;
+.demoniste:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(129, 8, 255);
+    opacity: 100%;
 }
 
-#Demoniste {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #923eab 5%, #8f31a9 100%);
-    background-color: #6e0c9a;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.dh {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(170, 105, 245);
+    border-radius: 15px;
+    background-image: url(../img/022cd439-7b5d-4399-9dad-72b76a1dd0da_rw_1200.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#Demoniste:hover {
-    background:linear-gradient(to bottom, #aa21af 5%, #721079 100%);
-    background-color: #aa4dd2;
+.dh:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(179, 105, 255);
+    opacity: 100%;
 }
 
-#Demoniste:active {
-    position:relative;
-    top:1px;
+.chaman {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(6, 85, 255);
+    border-radius: 15px;
+    background-image: url(../img/1c1225ed1d80edb25b5644a1558b016e.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#chasseur {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #197c02 5%, #23a603 100%);
-    background-color: #26ad08;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+.chaman:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(0, 103, 255);
+    opacity: 100%;
 }
 
-#chasseur:hover {
-    background:linear-gradient(to bottom, #00bd02 5%, #048d07 100%);
-    background-color: #1c8c05;
+.druide {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(255, 138, 0);
+    border-radius: 15px;
+    background-image: url(../img/bcfc3178cf3dfbd3439984085eae777b.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
 }
 
-#chasseur:active {
-    position:relative;
-    top:1px;
+.druide:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(255, 135, 0);
+    opacity: 100%;
 }
 
-#dk {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #a90a1a 5%, #dc081f 100%);
-    background-color: #b20e1d;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
-#dk:hover {
-    background:linear-gradient(to bottom, #cb1528 5%, #a40f20 100%);
-    background-color: #b60013;
-}
-
-#dk:active {
-    position:relative;
-    top:1px;
-}
-
-#chaman {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #001b69 5%, #2a3a88 100%);
-    background-color: #05108f;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
-}
-
-#chaman:hover {
-    background:linear-gradient(to bottom, #163dda 5%, #00178c 100%);
-    background-color: #0811a4;
-}
-
-#chaman:active {
-    position:relative;
-    top:1px;
-}
-
-
-#Druide {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #f56401 5%, #cb7c20 100%);
-    background-color: #f57201;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
-}
-
-#Druide:hover {
-    background:linear-gradient(to bottom, #ef9125 5%, #fc6100 100%);
-    background-color: #e87a0b;
-}
-
-#Druide:active {
-    position:relative;
-    top:1px;
-}
-
-#Dh {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #276873;
-    background:linear-gradient(to bottom, #4d058f 5%, #613091 100%);
-    background-color: #4d058f;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
-}
-
-#Dh:hover {
-    background:linear-gradient(to bottom, #6c23af 5%, #5e179d 100%);
-    background-color: #5d2296;
-}
-
-#Dh:active {
-    position:relative;
-    top:1px;
-}
-
-#moine {
-    width: 350px;
-    height: 100px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-    box-shadow: 0 10px 14px -7px #417388;
-    background:linear-gradient(to bottom, #23ad71 5%, rgb(65, 224, 121) 100%);
-    background-color: #197e48;
-    border-radius:8px;
-    border: solid 2px black;
-    display: inline-block;
-    cursor:pointer;
-    color: rgba(0, 0, 0, 0.8);
-    font-size:30px;
-    padding:30px 32px;
-    text-decoration:none;
-    text-shadow:0 1px 0 #3d768a;
-    margin-left: 30px;
-}
-
-#moine:hover {
-    background:linear-gradient(to bottom, rgba(0, 255, 111, 0.7) 5%, #197e3c 100%);
-    background-color: #197e41;
-}
-
-#moine:active {
-    position:relative;
-    top:1px;
-}
 

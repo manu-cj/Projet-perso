@@ -8,27 +8,35 @@
 
 
 body {
+    height: 100%;
     background-color: #143742;
 }
 
 
 #ui {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
     background:linear-gradient(to bottom, rgb(102, 156, 178) 5%, rgba(25, 134, 96, 0.7) 100%);
     background-color: #417388;
-    position: fixed;
     width: 100%;
     height: 100px;
-
+    margin: 0;
+    top: 0;
+}
+.titre {
 }
 
-h1 {
-    padding: 30px;
+.titre h3 {
+    font-size: 2em;
     height: 40px;
     font-family: Lobster, fantasy;
     text-align: center;
+    display: block;
 }
 
-a {
+.titre a {
     text-decoration-line: none;
     color: rgba(0, 222, 139, 0.7);
 }
@@ -36,34 +44,35 @@ a {
 nav {
     padding: 30px;
     text-align: center;
-    float: right;
 }
 
 .menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
 }
 .menu > li {
     color: white;
-    width: 40px;
+    width: 100px;
     height: 40px;
     line-height: 40px;
     background:linear-gradient(to bottom, rgba(0, 192, 192, 0.7) 5%, rgb(25, 126, 106) 100%);
     background-color: #197e6a;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 25px;
-
+    border-radius: 15px;
 }
 
 .sub-menu {
-    float: right;
     transform: scale(0);
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     width: 140px;
     height: 40px;
     border-radius: 15px;
-    margin-top: 50px;
+
 }
 
 .sub-menu li {
@@ -73,11 +82,10 @@ nav {
     padding: 8px 0;
     color: white;
     border: 1px solid #fff;
-    transform: scale(0);
+    transform: scale(1);
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     border-radius: 4px;
-
 }
 
 .sub-menu li:last-child {
@@ -89,6 +97,7 @@ nav {
 }
 .menu > li:hover .sub-menu li {
     transform: scale(1);
+
 }
 .menu > li:hover .sub-menu {
     transform: scale(1);
@@ -96,18 +105,10 @@ nav {
 
 ul {
     list-style-type: none;
-
 }
-#profil {
-    background-image: url(../img/hamburger+list+menu+navigation+stack+icon-1320196714059164103.png);
-    background-size: cover;
-    background-position: center;
 
-}
 
 #searchbar {
-    position:relative;
-    bottom: 20px;
     width:200px;
     height:auto;
     text-align: center;
@@ -147,10 +148,8 @@ ul {
     height: 120px;
     background:linear-gradient(to bottom, rgba(4, 96, 96, 0.7) 5%, rgb(12, 105, 86) 100%);
     background-color: #074b3e;
-    margin-top: 200px;
     padding: 10px 10px 10px 10px;
-    bottom: 0;
-    left: 0;
+    margin-bottom: 0;
 }
 
 .socialnetwork {
