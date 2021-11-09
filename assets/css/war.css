@@ -4,11 +4,21 @@ body {
     width: 100%;
     height: auto;
     background-color: #417388;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 section {
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 h1 {
@@ -20,7 +30,7 @@ h1 {
 .war {
     width: 30%;
     height: 350px;
-    border: solid 5px #544016;
+    border: solid 5px #8d6c27;
     border-radius: 15px;
     background-image: url(../warrior.jpg);
     background-size: cover;
@@ -29,12 +39,11 @@ h1 {
 }
 .war:hover {
     cursor: pointer;
-    box-shadow: 2px 16px 53px 0 rgba(171, 119, 86, 0.67);
+    box-shadow: 2px 16px 53px 0 rgb(171, 119, 86);
     opacity: 100%;
 }
 
 .paladin {
-    float: right;
     width: 30%;
     height: 350px;
     border: solid 5px #e601ff;
@@ -69,7 +78,7 @@ h1 {
 .mage {
     width: 30%;
     height: 350px;
-    border: solid 5px rgba(0, 192, 192, 0.7);
+    border: solid 5px rgb(6, 255, 255);
     border-radius: 15px;
     background-image: url(../img/RhoninTCG.jpg);
     background-size: cover;
@@ -78,6 +87,40 @@ h1 {
 }
 .mage:hover {
     cursor: pointer;
-    box-shadow: 2px 16px 53px 0 rgba(0, 192, 192, 0.7);
+    box-shadow: 2px 16px 53px 0 rgb(0, 192, 192);
+    opacity: 100%;
+}
+
+.voleur {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(238, 255, 0);
+    border-radius: 15px;
+    background-image: url(../img/4a4d0880e0225bb65560d2c178410974.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.voleur:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(238, 255, 0);
+    opacity: 100%;
+}
+
+.chasseur {
+    width: 30%;
+    height: 350px;
+    border: solid 5px rgb(94, 255, 0);
+    border-radius: 15px;
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+}
+
+.chasseur:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(94, 255, 0);
     opacity: 100%;
 }
