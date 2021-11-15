@@ -78,6 +78,7 @@ h1 {
     border-radius: 15px;
     background-image: url(../img/227524.jpg);
     background-size: cover;
+    background-position: center;
     opacity: 90%;
 }
 .paladin:hover {
@@ -98,6 +99,7 @@ h1 {
     border-radius: 15px;
     background-image: url(../img/b555c4380ed3d436d272df0e21a558a4.png);
     background-size: cover;
+    background-position: center;
     opacity: 90%;
 }
 .pretre:hover {
@@ -324,11 +326,11 @@ a {
     30%, 50%, 70% {
         transform: rotate(1deg);
 
+
     }
 
     40%, 60% {
         transform: rotate(-1deg);
-
     }
 }
 
