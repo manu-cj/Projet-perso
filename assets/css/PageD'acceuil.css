@@ -36,22 +36,22 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
+    align-content: space-around;
+    border: solid 2px black;
 }
 
 h1 {
     background-color: #101010;
     color: #ffffff;
     text-align: center;
-    margin-top: 310px;
     font-family: Lobster, fantasy;
     border-radius: 15px;
     opacity: 80%;
 }
 
 .war {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px #8d6c27;
     border-radius: 15px;
     background-image: url(../warrior.jpg);
@@ -66,13 +66,12 @@ h1 {
 }
 
 .paladin {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px #e601ff;
     border-radius: 15px;
     background-image: url(../img/227524.jpg);
     background-size: cover;
-    background-position: center;
     opacity: 90%;
 }
 .paladin:hover {
@@ -82,13 +81,12 @@ h1 {
 }
 
 .pretre {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px #ffffff;
     border-radius: 15px;
     background-image: url(../img/b555c4380ed3d436d272df0e21a558a4.png);
     background-size: cover;
-    background-position: center;
     opacity: 90%;
 }
 .pretre:hover {
@@ -98,8 +96,8 @@ h1 {
 }
 
 .mage {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(6, 255, 255);
     border-radius: 15px;
     background-image: url(../img/RhoninTCG.jpg);
@@ -114,8 +112,8 @@ h1 {
 }
 
 .voleur {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(238, 255, 0);
     border-radius: 15px;
     background-image: url(../img/4a4d0880e0225bb65560d2c178410974.jpg);
@@ -131,8 +129,8 @@ h1 {
 }
 
 .chasseur {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(94, 255, 0);
     border-radius: 15px;
     background-image: url(../img/unnamed.jpg);
@@ -148,8 +146,8 @@ h1 {
 }
 
 .chevalier-de-la-mort {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;;
     border: solid 5px rgb(255, 0, 0);
     border-radius: 15px;
     background-image: url(../img/AlexCrowley.jpg);
@@ -165,8 +163,8 @@ h1 {
 }
 
 .moine {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(0, 204, 116);
     border-radius: 15px;
     background-image: url(../img/1399100-monk-article_image_bd-1.jpg);
@@ -182,8 +180,8 @@ h1 {
 }
 
 .demoniste {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(129, 12, 255);
     border-radius: 15px;
     background-image: url(../img/1b29e49935a71f612be275f30ea309d4.jpg);
@@ -199,8 +197,8 @@ h1 {
 }
 
 .dh {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(170, 105, 245);
     border-radius: 15px;
     background-image: url(../img/022cd439-7b5d-4399-9dad-72b76a1dd0da_rw_1200.jpg);
@@ -216,8 +214,8 @@ h1 {
 }
 
 .chaman {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(6, 85, 255);
     border-radius: 15px;
     background-image: url(../img/1c1225ed1d80edb25b5644a1558b016e.jpg);
@@ -233,8 +231,8 @@ h1 {
 }
 
 .druide {
-    width: 30%;
-    height: 350px;
+    width: 22%;
+    height: 25%;
     border: solid 5px rgb(255, 138, 0);
     border-radius: 15px;
     background-image: url(../img/bcfc3178cf3dfbd3439984085eae777b.jpg);
