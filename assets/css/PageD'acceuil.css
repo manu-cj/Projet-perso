@@ -87,7 +87,6 @@ h1 {
     opacity: 100%;
     animation-name: carte;
     transform: translateY(-30px) ;
-    animation-name: carte;
     animation-duration: 0.5s;
     animation-delay: 600ms;
 }
