@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-content: space-between;
     align-items: center;
     background:linear-gradient(to bottom, rgb(102, 156, 178) 5%, rgba(25, 134, 96, 0.7) 100%);
     background-color: #417388;

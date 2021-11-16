@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    background-color: #417388;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    width: 100%;
+    height: 200px;
+}
+
+section {
+    width: 70%;
+    height: 1600px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    border: solid 1px white;
+}
+
+.voleur {
+    width: 22%;
+    height: 25%;
+    border: solid 5px rgb(238, 255, 0);
+    border-radius: 15px;
+    background-image: url(../img/4a4d0880e0225bb65560d2c178410974.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.voleur:hover {
+    cursor: pointer;
+    box-shadow: 2px 16px 53px 0 rgb(238, 255, 0);
+    opacity: 60%;
+    animation-name: carte;
+    animation-duration: 10s;
+
+}
+
+
+
+@keyframes carte {
+
+    10% {
+        opacity: 55%;
+    }
+
+    20% {
+        opacity: 50%;
+    }
+
+    40% {
+        opacity: 45%;
+    }
+
+    50% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 30%;
+    }
+
+    80% {
+        opacity: 20%;
+    }
+
+    90% {
+        opacity: 15%;
+    }
+
+    95% {
+        opacity: 10%;
+    }
+
+}
