@@ -32,13 +32,17 @@ h2 {
 
 
 section {
-    width: 70%;
-    height: 1600px;
+    width: 50%;
+    height: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: space-around;
+    align-items: center;
+    background: radial-gradient(circle at 50% 120%, #8ccbe5, #8ccbe5 10%, #86b9f1 80%, #71ccd9 100%);
+    border: solid 2px cadetblue;
+    border-radius: 15px;
 }
 
 h1 {
@@ -59,6 +63,7 @@ h1 {
     background-size: cover;
     background-position: center;
     opacity: 90%;
+
 }
 .war:hover {
     cursor: pointer;
@@ -80,6 +85,7 @@ h1 {
     background-size: cover;
     background-position: center;
     opacity: 90%;
+
 }
 .paladin:hover {
     cursor: pointer;
@@ -100,6 +106,7 @@ h1 {
     background-size: cover;
     background-position: center;
     opacity: 90%;
+
 }
 .pretre:hover {
     cursor: pointer;
