@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background-color: #222c3d;
+    background-color: #25353d;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@ section {
     align-items: center;
     border: solid 2px cadetblue;
     border-radius: 15px;
-    backdrop-filter: blur(16px) saturate(180%);
+    backdrop-filter: blur(16px) saturate(200%);
 }
 
 h1 {
