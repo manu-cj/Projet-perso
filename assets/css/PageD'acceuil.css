@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background-color: #417388;
+    background-color: #222c3d;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -40,9 +40,9 @@ section {
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
-    background: radial-gradient(circle at 50% 120%, #8ccbe5, #8ccbe5 10%, #86b9f1 80%, #71ccd9 100%);
     border: solid 2px cadetblue;
     border-radius: 15px;
+    backdrop-filter: blur(16px) saturate(180%);
 }
 
 h1 {
