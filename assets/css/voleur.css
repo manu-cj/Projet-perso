@@ -33,7 +33,6 @@ section {
     background-image: url(../img/4a4d0880e0225bb65560d2c178410974.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
 .voleur:hover {
@@ -64,7 +63,6 @@ section {
 
     50% {
         opacity: 5%;
-
     }
 
     60% {
@@ -82,7 +80,6 @@ section {
 
     95% {
         opacity: 100%;
-
     }
 
 }
